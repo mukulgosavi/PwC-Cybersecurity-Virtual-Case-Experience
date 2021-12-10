@@ -80,7 +80,7 @@ Does any of this present an information security concern? Please explain your an
 This experience is self-paced. However, you and Stefan have a presentation to Boldi AG management with your findings in 1 hour. We recommend you spend no more than that completing this task.
 
 ### Presentation
-Voicemail: *"Hello Stefan, I'm reaching out to learn more about Boldi AG and its culture in relation to the risk assessment you'll be presenting on. I was hoping to learn more about the company in order to establish a common understanding of information risk as Boldi AG. I was hoping to speak with both management and engineers at the company. Questions I'm hoping to ask management include learning more about the company and processes of each department. I would like each manager to breifly speak about their security concerns, and I would also like to understand what they believe to be the most important products and services to protect. For the engineers and IT department, I would like to hear what are the critcial applications. I want to hear how they document their changes to the system and the network, and I would also like to hear how they are keeping up with industry standards. Lastly, I want to do some tabletop exercises to hear how they respond to cyber threats. Feel free to give me a call back so that we can initiate and conduct a proper risk management framework assessment for Boldi AG."*
+**Voicemail**: *"Hello Stefan, I'm reaching out to learn more about Boldi AG and its culture in relation to the risk assessment you'll be presenting on. I was hoping to learn more about the company in order to establish a common understanding of information risk as Boldi AG. I was hoping to speak with both management and engineers at the company. Questions I'm hoping to ask management include learning more about the company and processes of each department. I would like each manager to breifly speak about their security concerns, and I would also like to understand what they believe to be the most important products and services to protect. For the engineers and IT department, I would like to hear what are the critcial applications. I want to hear how they document their changes to the system and the network, and I would also like to hear how they are keeping up with industry standards. Lastly, I want to do some tabletop exercises to hear how they respond to cyber threats. Feel free to give me a call back so that we can initiate and conduct a proper risk management framework assessment for Boldi AG."*
 
 ![image](https://user-images.githubusercontent.com/87041507/145628757-21c0bc18-3a3e-4db7-b6ed-9b0226fe3c56.png)
 ![image](https://user-images.githubusercontent.com/87041507/145628773-7aeebb92-8a98-4e3c-9aea-cfed5569234c.png)
@@ -124,13 +124,13 @@ For Stefans preparation, write in Microsoft Word format detailed notes explainin
 ### Part 2
 The  Head of IT Infrastructure of Boldi AG provided Stefan with the following network segmentation:
 ![image](https://user-images.githubusercontent.com/87041507/145629481-60205b42-7b49-485d-aa9b-840f664db070.png)
-**Domain: A namespace which logically divides an organisation’s network objects that share the same directory.
+**Domain**: A namespace which logically divides an organisation’s network objects that share the same directory.
 
-**Admin Zone: Special purpose server zone, e.g. central logging, Security Information and Event Management (SIEM)
+**Admin Zone**: Special purpose server zone, e.g. central logging, Security Information and Event Management (SIEM)
 
-**Server Zone: General purpose server zone, e.g. application servers, database servers
+**Server Zone**: General purpose server zone, e.g. application servers, database servers
 
-**Client Zone: General purpose client zone, e.g. user laptops
+**Client Zone**: General purpose client zone, e.g. user laptops
 
 Regarding network segmentation and trust architectures, the base configuration and maintenance of firewalls is of great importance. There are two approaches to configuring firewalls: whitelisting the good or blacklisting the bad.
 
@@ -140,22 +140,29 @@ This experience is self-paced. Anyway, Stefan is helds his workshop in 1 hour an
 
 ### Presentation
 
-**Network Segmentation
+**Network Segmentation**
 
 **Part 1:**
+
 Network segmentation involves splitting one large network into smaller separately contained networks. The Internet demonstrate segmentation in that it is made of millions of different connected networks. These internet segments use TCP/IP to connect to and traverse the millions of separate networks. The OSI model is a model that depicts how devices can communicate and send data to other devices over the Internet. The layers in the OSI model can create barriers which segment some devices from others. The benefits of segmentation include security against cyber-attacks. If a worm attempts to infect an entire network, segmentation can stop the attack from reaching critical systems. Segmentation reduces the attack area in a network and limits the collateral damage of an attack. Firewalls are tools that help segment network that us access control lists. A fire can utilize whitelisting or blacklisting to stop malware from reaching machine in the network. A whitelist is an approved list of activities, connections, files, users, or application. A blacklist is a denial protection that prohibits anything on the list.
+
 Network segmentation contributes to the security of the whole organization. When an organization segment different departments on the network, it safeguards information in the event an attacker gains access to one node in a department. Cybercriminals will usually move laterally once they have broken into a network, and then they will attempt to gain administrator privileges. Segmenting the network stops an attacker in his or her tracks. 
+
 Segmenting also allows for better network management. When networks are categorized and segmented, they are easier to modify in the event of new employees, new permissions, people leaving, and it also allows a cybersecurity analyst to better identify anomalies in the network.
 
 **Part 2:**
-Firewall A: This firewall is on the perimeter of the network so all malware should be blacklisted. (Remote clients still need to access the network.) 
-	Blacklist: Signature-Based Malware
-Firewall B: Since this firewall is a special purpose server zone for administrators, it is important to whitelist administrators so that no one without admin privileges can access these servers.
-	Whitelist: Administrators
-Firewall C: This firewall segments the client zone. Whitelisting only client and administrator ensures that only clients (and admins) have access.
-	Whitelist: Clients, Administrators
-Firewall D: This firewall is outside the general-purpose servers. A blacklist is needed to restrict anyone who does not need these servers.
-	Blacklist: Anyone who does not need to reach these servers (application server, database server, etc.)
+
+**Firewall A**: This firewall is on the perimeter of the network so all malware should be blacklisted. (Remote clients still need to access the network.) 
+* Blacklist: Signature-Based Malware
+
+**Firewall B**: Since this firewall is a special purpose server zone for administrators, it is important to whitelist administrators so that no one without admin privileges can access these servers.
+* Whitelist: Administrators
+
+**Firewall C**: This firewall segments the client zone. Whitelisting only client and administrator ensures that only clients (and admins) have access.
+* Whitelist: Clients, Administrators
+
+**Firewall D**: This firewall is outside the general-purpose servers. A blacklist is needed to restrict anyone who does not need these servers.
+* Blacklist: Anyone who does not need to reach these servers (application server, database server, etc.)
 
 
 
