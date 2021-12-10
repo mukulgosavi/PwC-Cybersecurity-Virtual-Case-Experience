@@ -1,0 +1,41 @@
+## Task 4: Network Segmentation
+### Background
+The Head of IT Infrastructure of Boldi AG does see the need for network segmentation but cannot follow why a segmented network cannot prevent you from every possible issue. In order to give him and his people a broad understanding of the topic, Stefan organises a workshop and need your help. 
+
+### Part 1
+For Stefans preparation, write in Microsoft Word format detailed notes explaining how segmentation contributes to network security and to the security of the whole organisation. Your notes will help Stefan creating the workshop.
+### Part 2
+The  Head of IT Infrastructure of Boldi AG provided Stefan with the following network segmentation:
+![image](https://user-images.githubusercontent.com/87041507/145629481-60205b42-7b49-485d-aa9b-840f664db070.png)
+**Domain: A namespace which logically divides an organisation’s network objects that share the same directory.
+
+**Admin Zone: Special purpose server zone, e.g. central logging, Security Information and Event Management (SIEM)
+
+**Server Zone: General purpose server zone, e.g. application servers, database servers
+
+**Client Zone: General purpose client zone, e.g. user laptops
+
+Regarding network segmentation and trust architectures, the base configuration and maintenance of firewalls is of great importance. There are two approaches to configuring firewalls: whitelisting the good or blacklisting the bad.
+
+Add to your notes how firewalls A, B, C and D at Boldi AG need to be configured using the concepts of whitelisting and blacklisting and why. 
+
+This experience is self-paced. Anyway, Stefan is helds his workshop in 1 hour and need your valuable input. We recommend you spend no more than that completing this task.
+
+### Presentation
+
+**Network Segmentation
+
+**Part 1:**
+Network segmentation involves splitting one large network into smaller separately contained networks. The Internet demonstrate segmentation in that it is made of millions of different connected networks. These internet segments use TCP/IP to connect to and traverse the millions of separate networks. The OSI model is a model that depicts how devices can communicate and send data to other devices over the Internet. The layers in the OSI model can create barriers which segment some devices from others. The benefits of segmentation include security against cyber-attacks. If a worm attempts to infect an entire network, segmentation can stop the attack from reaching critical systems. Segmentation reduces the attack area in a network and limits the collateral damage of an attack. Firewalls are tools that help segment network that us access control lists. A fire can utilize whitelisting or blacklisting to stop malware from reaching machine in the network. A whitelist is an approved list of activities, connections, files, users, or application. A blacklist is a denial protection that prohibits anything on the list.
+Network segmentation contributes to the security of the whole organization. When an organization segment different departments on the network, it safeguards information in the event an attacker gains access to one node in a department. Cybercriminals will usually move laterally once they have broken into a network, and then they will attempt to gain administrator privileges. Segmenting the network stops an attacker in his or her tracks. 
+Segmenting also allows for better network management. When networks are categorized and segmented, they are easier to modify in the event of new employees, new permissions, people leaving, and it also allows a cybersecurity analyst to better identify anomalies in the network.
+
+**Part 2:**
+Firewall A: This firewall is on the perimeter of the network so all malware should be blacklisted. (Remote clients still need to access the network.) 
+	Blacklist: Signature-Based Malware
+Firewall B: Since this firewall is a special purpose server zone for administrators, it is important to whitelist administrators so that no one without admin privileges can access these servers.
+	Whitelist: Administrators
+Firewall C: This firewall segments the client zone. Whitelisting only client and administrator ensures that only clients (and admins) have access.
+	Whitelist: Clients, Administrators
+Firewall D: This firewall is outside the general-purpose servers. A blacklist is needed to restrict anyone who does not need these servers.
+	Blacklist: Anyone who does not need to reach these servers (application server, database server, etc.)
