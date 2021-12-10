@@ -1,0 +1,32 @@
+## Task 2: Risk Assessment
+### Background
+Our Cybersecurity team gave an excellent presentation. We won the pitch! Now the action starts: Stefan needs to present a risk assessment of Boldi AG to its management, explaining it in detail step by step. But a risk assessment requires lots of work up front.   
+
+You are working with Stefan on location at Boldi to learn as much as possible about the company. First, it is critical to establish a common understanding of information risk at Boldi AG. This means learning about the company and its culture.
+
+What is their risk tolerance?
+How willing are they to accept risk?
+How do they handle changes in processes and systems?
+A risk management framework can provide top-down guidance and establish the attitude and mindset to build consensus about risk. It is also important to understand how Boldi AG controls changes in business processes and systems, particularly Information Technology Systems.
+
+### Directive
+Create and submit a PowerPoint slide deck for Stefan answering step 2 and 3. For the first step, use the memo function of your phone and upload a voicemail to complete your task.
+
+1. To learn more about Boldi AG and its culture, you first need to determine who you should talk to at Boldi AG and what the content of these interviews should be. How does your agenda differ based on the audience, e.g. management vs. engineers? Stefan is currently in a meeting, leave him a voicemail (no longer than 1.5 minutes).
+
+2. Now you are prepared to conduct an information risk impact assessment. In the meantime, you discover that Boldi AG files on paper and the company’s cloud-based information systems are inconsistent in format and hard to use for an analysis. Plus, there are no controls over who in the company can access these files. 
+
+Does any of this present an information security concern? Please explain your answer in the slide deck. Think of this through the prism of confidentiality, integrity, and availability (CIA) and add slides to your started presentation.
+
+3. After you know enough about Boldi AG, decide what type of risk assessment would be best, a quantitative risk assessment or a qualitative risk assessment. Then explain the difference between quantitative and qualitative assessments. What do you rely on to be able to perform a quantitative assessment? Which method could be more adapted for information security risk assessments? 
+
+This experience is self-paced. However, you and Stefan have a presentation to Boldi AG management with your findings in 1 hour. We recommend you spend no more than that completing this task.
+
+### Presentation
+Voicemail: *"Hello Stefan, I'm reaching out to learn more about Boldi AG and its culture in relation to the risk assessment you'll be presenting on. I was hoping to learn more about the company in order to establish a common understanding of information risk as Boldi AG. I was hoping to speak with both management and engineers at the company. Questions I'm hoping to ask management include learning more about the company and processes of each department. I would like each manager to breifly speak about their security concerns, and I would also like to understand what they believe to be the most important products and services to protect. For the engineers and IT department, I would like to hear what are the critcial applications. I want to hear how they document their changes to the system and the network, and I would also like to hear how they are keeping up with industry standards. Lastly, I want to do some tabletop exercises to hear how they respond to cyber threats. Feel free to give me a call back so that we can initiate and conduct a proper risk management framework assessment for Boldi AG."*
+
+![image](https://user-images.githubusercontent.com/87041507/145628757-21c0bc18-3a3e-4db7-b6ed-9b0226fe3c56.png)
+![image](https://user-images.githubusercontent.com/87041507/145628773-7aeebb92-8a98-4e3c-9aea-cfed5569234c.png)
+![image](https://user-images.githubusercontent.com/87041507/145628789-114dbc64-c803-4de3-8040-0829ac67fbce.png)
+![image](https://user-images.githubusercontent.com/87041507/145628810-1bdc80fd-30a1-4136-a06c-16bd619ba521.png)
+![image](https://user-images.githubusercontent.com/87041507/145628827-4e82a1a9-1278-4b34-8db8-a8dea1b690ee.png)
